@@ -35,4 +35,4 @@ def read_data(filename):
         line = f.readline()[:-1]
     return company_sales_data
 
-data_structure = read_data("company-sales.csv")
+data = read_data("company-sales.csv")
