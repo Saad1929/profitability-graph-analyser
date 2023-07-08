@@ -1,1 +1,1 @@
-# profitability-graph-analyser
+# Profitability Graph Analyser - Python Matplotlib
