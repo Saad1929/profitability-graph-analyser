@@ -31,3 +31,6 @@ def read_data(filename):
                 pass
         line = f.readline()[:-1]
     return company_sales_data
+
+data_structure = read_data(f)
+print(data_structure)
