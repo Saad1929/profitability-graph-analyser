@@ -13,9 +13,18 @@ def read_data(filename):
     while line != "":
         list_line = line.split(sep=",")
         assert len(list_line) == 9, "There is a line in the file which doesn't contain the correct sales data!"
-        try: 
+        try:
             first_line = int(list_line[0])
             if type(first_line) == type(1):
                 for item in list_line:
                     month_number = list_line[0]
                     company_sales_data[int(month_number)] = [float(value) for value in list_line[1:]]
+        except (TypeError, FileNotFoundError, AssertionError, ValueError):
+            if TypeError:
+              pass
+            elif FileNotFoundError:
+                print("The file you entered does not seem to exist. Please Try Again.\n")
+            elif AssertionError:
+                print("There is a line in the file which doesn't contain the correct sales data!")
+            elif ValueError:
+                pass
