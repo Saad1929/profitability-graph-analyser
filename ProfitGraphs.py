@@ -28,3 +28,5 @@ def read_data(filename):
                 print("There is a line in the file which doesn't contain the correct sales data!")
             elif ValueError:
                 pass
+        line = f.readline()[:-1]
+    return company_sales_data
