@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 plt.style.use("seaborn")
 
-f = open("company-sales.csv", "r")
+try:
+    f = open("company-sales.csv", "r")
+except FileNotFoundError:
+    print("The CSV File cannot be found. Please ensure the file is in the same directory as the file 'ProfitGraphs.py'.")
 
 def read_data(filename):
     company_sales_data = {}
