@@ -3,7 +3,7 @@ plt.style.use("seaborn")
 
 f = open("company-sales.csv", "r")
 
-def read_data_from_csv(filename):
+def read_data(filename):
     company_sales_data = {}
 
     line = filename.readline()[:-1]
