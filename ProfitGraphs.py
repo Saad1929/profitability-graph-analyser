@@ -1,16 +1,19 @@
 import matplotlib.pyplot as plt
 plt.style.use("seaborn")
 
-try:
-    f = open("company-sales.csv", "r")
-except FileNotFoundError:
-    print("The CSV File cannot be found. Please ensure the file is in the same directory as the file 'ProfitGraphs.py'.")
+def read_file(filename):
+    try:
+        f = open("company-sales.csv", "r")
+        return f
+    except FileNotFoundError:
+        print("The CSV File cannot be found. Please ensure the file is in the same directory as the file 'ProfitGraphs.py'.")
 
 #Reads CSV File and Returns a Dictionary Data Structure to further work with data.
 def read_data(filename):
+    f = read_file(filename)
     company_sales_data = {}
 
-    line = filename.readline()[:-1]
+    line = f.readline()[:-1]
     while line != "":
         list_line = line.split(sep=",")
         assert len(list_line) == 9, "There is a line in the file which doesn't contain the correct sales data!"
@@ -32,5 +35,4 @@ def read_data(filename):
         line = f.readline()[:-1]
     return company_sales_data
 
-data_structure = read_data(f)
-print(data_structure)
+data_structure = read_data("company-sales.csv")
