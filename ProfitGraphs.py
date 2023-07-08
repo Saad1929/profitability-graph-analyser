@@ -6,6 +6,7 @@ try:
 except FileNotFoundError:
     print("The CSV File cannot be found. Please ensure the file is in the same directory as the file 'ProfitGraphs.py'.")
 
+#Reads CSV File and Returns a Dictionary Data Structure to further work with data.
 def read_data(filename):
     company_sales_data = {}
 
