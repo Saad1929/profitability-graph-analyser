@@ -179,4 +179,6 @@ def demo_plot_histogram_total_units():
 #demo_plot_histogram_total_units()
 
 #Demo - plot_toothpaste_sales Function
-plot_toothpaste_sales(data_from_csv)
+def demo_plot_toothpaste_sales():
+    plot_toothpaste_sales(demo_data_structure())
+#demo_plot_toothpaste_sales()
