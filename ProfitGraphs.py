@@ -157,4 +157,6 @@ print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
 facewash_data = filter_by_characteristic(data_from_csv, "facewash")
 print(facewash_data)
 
-
+#Demo - aggregate_by_characteristic Function
+toothpaste_aggregation = aggregate_by_characteristic(data_from_csv, "toothpaste")
+print(toothpaste_aggregation)
