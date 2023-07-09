@@ -134,3 +134,8 @@ def plot_toothpaste_sales(data_per_month):
               12 : "December"}
     month_xaxis = []
     toothpaste_sales_yaxis = []
+    for month, data_value in data_per_month.items():
+        assert month not in month_xaxis, "Error, there seems to be month duplication within your CSV file."
+        plot_month = months[month]
+        month_xaxis.append(plot_month)
+        toothpaste_sales_yaxis.append(data_value[-2])
