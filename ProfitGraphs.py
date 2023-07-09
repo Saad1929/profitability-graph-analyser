@@ -64,4 +64,14 @@ def filter_by_characteristic(dictionary, characteristic):
         print("\n", end= "")
 
 def aggregate_by_characteristic(dictionary, characteristic):
-    
+    items_in_csv = {"FACECREAM": 0,
+                    "FACEWASH": 1,
+                    "TOOTHPASTE": 2,
+                    "BATHING SOAP": 3,
+                    "SHAMPOO": 4,
+                    "MOISTURIZER": 5,
+                    "TOTAL UNITS": 6,
+                    "TOTAL PROFIT": 7}
+    filtered_items = {}
+    total_price = 0
+    month = 1
