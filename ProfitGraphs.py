@@ -96,3 +96,7 @@ def aggregate_by_characteristic(dictionary, characteristic):
 def plot_total_profit(dictionary):
     months_x = []
     profit_y = []
+    for key, value in dictionary.items():
+        assert key not in months_x, "Duplicate Month!: {}".format(key)
+        months_x.append(key)
+        profit_y.append(value[-1])
