@@ -36,3 +36,13 @@ def read_data(filename):
     return company_sales_data
 
 data = read_data("company-sales.csv")
+
+def filter_by_characteristic(dictionary, characteristic):
+    items_in_csv = {"FACECREAM": 0,
+                    "FACEWASH": 1,
+                    "TOOTHPASTE": 2,
+                    "BATHING SOAP": 3,
+                    "SHAMPOO": 4,
+                    "MOISTURISER": 5,
+                    "TOTAL UNITS": 6,
+                    "TOTAL PROFIT": 7}
