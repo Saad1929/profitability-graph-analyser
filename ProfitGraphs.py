@@ -108,6 +108,7 @@ def plot_total_profit(dictionary):
     plt.ylabel("Total Profit (£)")
     plt.show()
 
+#Function will generate a histogram using the total units for each month.
 def plot_histogram_total_units(data_per_month):
     total_units_plot = []
     for data_value in data_per_month.values():
@@ -117,3 +118,4 @@ def plot_histogram_total_units(data_per_month):
     plt.ylabel("Frequency (Number of Months)")
     plt.xlabel("Total Number Of Units Sold")
     plt.show()
+
