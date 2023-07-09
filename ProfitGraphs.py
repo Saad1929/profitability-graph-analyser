@@ -147,4 +147,7 @@ def plot_toothpaste_sales(data_per_month):
     plt.xticks(month_xaxis)
     plt.show()
 
+#Demo
+data_from_csv = read_data("company-sales.csv")
+print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
 
