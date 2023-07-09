@@ -37,6 +37,7 @@ def read_data(filename):
 
 data = read_data("company-sales.csv")
 
+#This function is designed to accept a product and filter the main dictionary to display the relevant data for that specific product.
 def filter_by_characteristic(dictionary, characteristic):
     items_in_csv = {"FACECREAM": 0,
                     "FACEWASH": 1,
@@ -62,4 +63,5 @@ def filter_by_characteristic(dictionary, characteristic):
             print(key.title())
         print("\n", end= "")
 
-print(filter_by_characteristic(data, "facewash"))
+def aggregate_by_characteristic(dictionary, characteristic):
+    
