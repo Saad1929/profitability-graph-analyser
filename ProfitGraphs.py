@@ -139,3 +139,9 @@ def plot_toothpaste_sales(data_per_month):
         plot_month = months[month]
         month_xaxis.append(plot_month)
         toothpaste_sales_yaxis.append(data_value[-2])
+    plt.bar(month_xaxis, toothpaste_sales_yaxis)
+    plt.title("Monthly Total Sales of Toothpaste", size=15)
+    plt.xlabel("Month")
+    plt.ylabel("Total Number of Units Sold")
+    plt.xticks(month_xaxis)
+    plt.show()
