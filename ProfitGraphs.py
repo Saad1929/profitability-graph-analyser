@@ -174,7 +174,9 @@ def demo_plot_total_profit():
 #demo_plot_total_profit()
 
 #Demo - plot_histogram_total_units Function
-plot_histogram_total_units(data_from_csv)
+def demo_plot_histogram_total_units():
+    plot_histogram_total_units(demo_data_structure())
+#demo_plot_histogram_total_units()
 
 #Demo - plot_toothpaste_sales Function
 plot_toothpaste_sales(data_from_csv)
