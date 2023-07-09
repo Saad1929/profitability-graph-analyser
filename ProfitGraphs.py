@@ -169,7 +169,9 @@ def demo_aggregate_by_characteristic():
 #demo_aggregate_by_characteristic()
 
 #Demo - plot_total_profit Function
-plot_total_profit(data_from_csv)
+def demo_plot_total_profit():
+    plot_total_profit(demo_data_structure())
+#demo_plot_total_profit()
 
 #Demo - plot_histogram_total_units Function
 plot_histogram_total_units(data_from_csv)
