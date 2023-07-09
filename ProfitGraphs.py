@@ -63,6 +63,7 @@ def filter_by_characteristic(dictionary, characteristic):
             print(key.title())
         print("\n", end= "")
 
+#Function is used to select any column from the database and calculate the average value for that column.
 def aggregate_by_characteristic(dictionary, characteristic):
     items_in_csv = {"FACECREAM": 0,
                     "FACEWASH": 1,
