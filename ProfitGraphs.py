@@ -92,3 +92,7 @@ def aggregate_by_characteristic(dictionary, characteristic):
         for key in items_in_csv.keys():
             print(key.title())
         print("\n", end="")
+
+def plot_total_profit(dictionary):
+    months_x = []
+    profit_y = []
