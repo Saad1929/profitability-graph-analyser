@@ -164,3 +164,5 @@ print(toothpaste_aggregation)
 #Demo - plot_total_profit Function
 plot_total_profit(data_from_csv)
 
+#Demo - plot_histogram_total_units Function
+plot_histogram_total_units(data_from_csv)
