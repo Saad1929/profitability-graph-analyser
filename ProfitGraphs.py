@@ -93,6 +93,7 @@ def aggregate_by_characteristic(dictionary, characteristic):
             print(key.title())
         print("\n", end="")
 
+#Function shows the profit for each month using a graph using the matplotlib package.
 def plot_total_profit(dictionary):
     months_x = []
     profit_y = []
