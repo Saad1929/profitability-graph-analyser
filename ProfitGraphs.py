@@ -61,3 +61,5 @@ def filter_by_characteristic(dictionary, characteristic):
         for key in items_in_csv.keys():
             print(key.title())
         print("\n", end= "")
+
+print(filter_by_characteristic(data, "facewash"))
