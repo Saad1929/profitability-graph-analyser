@@ -132,4 +132,5 @@ def plot_toothpaste_sales(data_per_month):
               10 : "October",
               11 : "November",
               12 : "December"}
-    
+    month_xaxis = []
+    toothpaste_sales_yaxis = []
