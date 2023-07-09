@@ -148,6 +148,13 @@ def plot_toothpaste_sales(data_per_month):
     plt.show()
 
 #Demo
+
+#Obtaining Data Structure
 data_from_csv = read_data("company-sales.csv")
 print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
+
+#Demo - filter_by_characteristic Function
+facewash_data = filter_by_characteristic(data_from_csv, "facewash")
+print(facewash_data)
+
 
