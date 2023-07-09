@@ -119,6 +119,7 @@ def plot_histogram_total_units(data_per_month):
     plt.xlabel("Total Number Of Units Sold")
     plt.show()
 
+#Function will plot a bar graph to illustrate the number of toothpaste sales for each month
 def plot_toothpaste_sales(data_per_month):
     months = {1 : "Januray",
               2 : "February",
@@ -145,3 +146,5 @@ def plot_toothpaste_sales(data_per_month):
     plt.ylabel("Total Number of Units Sold")
     plt.xticks(month_xaxis)
     plt.show()
+
+
