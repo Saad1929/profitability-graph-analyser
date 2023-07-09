@@ -100,3 +100,10 @@ def plot_total_profit(dictionary):
         assert key not in months_x, "Duplicate Month!: {}".format(key)
         months_x.append(key)
         profit_y.append(value[-1])
+    plt.plot(months_x, profit_y, marker="o", markerfacecolor="black", color="red")
+    plt.title("Total Profit For Each Month", size=15)
+    plt.xticks(months_x)
+    plt.xlabel("Month")
+    plt.ylabel("Total Profit")
+    plt.show()
+
