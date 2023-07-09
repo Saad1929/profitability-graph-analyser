@@ -108,4 +108,9 @@ def plot_total_profit(dictionary):
     plt.ylabel("Total Profit (£)")
     plt.show()
 
+def plot_histogram_total_units(data_per_month):
+    total_units_plot = []
+    for data_value in data_per_month.values():
+        total_units_plot.append(data_value[-2])
+    plt.hist(total_units_plot, bins= 6) 
 
