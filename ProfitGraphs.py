@@ -150,12 +150,17 @@ def plot_toothpaste_sales(data_per_month):
 #Demo
 
 #Demo - Obtaining Data Structure
-data_from_csv = read_data("company-sales.csv")
-print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
+def demo_data_structure():
+    data_from_csv = read_data("company-sales.csv")
+    print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
+    return data_from_csv
+#demo_data_structure()
 
 #Demo - filter_by_characteristic Function
-facewash_data = filter_by_characteristic(data_from_csv, "facewash")
-print(facewash_data)
+def demo_filter_by_characteristic():
+    facewash_data = filter_by_characteristic(demo_data_structure(), "facewash")
+    print(facewash_data)
+
 
 #Demo - aggregate_by_characteristic Function
 toothpaste_aggregation = aggregate_by_characteristic(data_from_csv, "toothpaste")
