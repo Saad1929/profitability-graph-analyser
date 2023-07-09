@@ -166,3 +166,6 @@ plot_total_profit(data_from_csv)
 
 #Demo - plot_histogram_total_units Function
 plot_histogram_total_units(data_from_csv)
+
+#Demo - plot_toothpaste_sales Function
+plot_toothpaste_sales(data_from_csv)
