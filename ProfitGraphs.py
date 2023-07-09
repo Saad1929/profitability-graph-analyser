@@ -149,7 +149,7 @@ def plot_toothpaste_sales(data_per_month):
 
 #Demo
 
-#Obtaining Data Structure
+#Demo - Obtaining Data Structure
 data_from_csv = read_data("company-sales.csv")
 print(data_from_csv) # Prints Dictionary with Integer Keys and List Mappings
 
@@ -163,3 +163,4 @@ print(toothpaste_aggregation)
 
 #Demo - plot_total_profit Function
 plot_total_profit(data_from_csv)
+
