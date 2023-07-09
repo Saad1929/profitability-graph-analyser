@@ -56,3 +56,8 @@ def filter_by_characteristic(dictionary, characteristic):
             filtered_items[month] = value[filter_characteristic]
             month += 1
         return filtered_items
+    except (KeyError, ValueError):
+        print("The item that you entered does not exist. Please take a look below at the options & try again.\n")
+        for key in items_in_csv.keys():
+            print(key.title())
+        print("\n", end= "")
