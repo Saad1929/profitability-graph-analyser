@@ -104,6 +104,7 @@ def plot_total_profit(dictionary):
     plt.title("Total Profit For Each Month", size=15)
     plt.xticks(months_x)
     plt.xlabel("Month")
-    plt.ylabel("Total Profit")
+    plt.ylabel("Total Profit (£)")
     plt.show()
+
 
