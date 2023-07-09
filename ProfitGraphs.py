@@ -160,11 +160,13 @@ def demo_data_structure():
 def demo_filter_by_characteristic():
     facewash_data = filter_by_characteristic(demo_data_structure(), "facewash")
     print(facewash_data)
-
+#demo_filter_by_characteristic()
 
 #Demo - aggregate_by_characteristic Function
-toothpaste_aggregation = aggregate_by_characteristic(data_from_csv, "toothpaste")
-print(toothpaste_aggregation)
+def demo_aggregate_by_characteristic():
+    toothpaste_aggregation = aggregate_by_characteristic(demo_data_structure(), "toothpaste")
+    print(toothpaste_aggregation)
+#demo_aggregate_by_characteristic()
 
 #Demo - plot_total_profit Function
 plot_total_profit(data_from_csv)
