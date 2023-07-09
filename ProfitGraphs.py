@@ -112,5 +112,8 @@ def plot_histogram_total_units(data_per_month):
     total_units_plot = []
     for data_value in data_per_month.values():
         total_units_plot.append(data_value[-2])
-    plt.hist(total_units_plot, bins= 6) 
-
+    plt.hist(total_units_plot, bins= 6)
+    plt.title("Frequencies of Total Number of Units Sold", size=15)
+    plt.ylabel("Frequency (Number of Months)")
+    plt.xlabel("Total Number Of Units Sold")
+    plt.show()
