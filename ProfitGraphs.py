@@ -75,3 +75,14 @@ def aggregate_by_characteristic(dictionary, characteristic):
     filtered_items = {}
     total_price = 0
     month = 1
+    try:
+        filter_characteristic = items_in_csv[characteristic.upper()]
+        for key, value in dictionary.items():
+            assert key not in filtered_items.keys(), "Month already exists in the dictionary."
+            assert month <= 12, "Invalid month number"
+            filtered_items[month] = value[filter_characteristic]
+            month += 1
+        for filtered_value in filtered_items.values():
+            total_price += filtered_value
+        mean_price = total_price / len([month_number for month_number in filtered_items.keys()])
+        return mean_price 
