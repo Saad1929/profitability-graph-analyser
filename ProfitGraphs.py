@@ -46,3 +46,13 @@ def filter_by_characteristic(dictionary, characteristic):
                     "MOISTURISER": 5,
                     "TOTAL UNITS": 6,
                     "TOTAL PROFIT": 7}
+    filtered_items = {}
+    try:
+        month = 1
+        filter_characteristic = items_in_csv[ characteristic.upper()]
+        for key, value in dictionary.items():
+            assert key not in filtered_items.keys(), "Month already exists in the dictionary."
+            assert month <= 12, "Invalid month number"
+            filtered_items[month] = value[filter_characteristic]
+            month += 1
+        return filtered_items
