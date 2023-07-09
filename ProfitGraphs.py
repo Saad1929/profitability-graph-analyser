@@ -160,3 +160,6 @@ print(facewash_data)
 #Demo - aggregate_by_characteristic Function
 toothpaste_aggregation = aggregate_by_characteristic(data_from_csv, "toothpaste")
 print(toothpaste_aggregation)
+
+#Demo - plot_total_profit Function
+plot_total_profit(data_from_csv)
