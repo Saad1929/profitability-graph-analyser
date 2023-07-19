@@ -16,4 +16,4 @@
 - **GitHub** was used to **host and maintain history of the project**.
 ## ✏️Design
 ### Back-End Technology Stack
-- Being a back-end project, Python3 was used to 
+- As a **back-end project**, **Python3** was employed to develop **profitability graphs** using the **matplotlib package** which enables users to **conveniently monitor and track the performance of products**, identifying both **successful and underperforming items**.
