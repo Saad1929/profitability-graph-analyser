@@ -8,7 +8,7 @@
 - **Motivated** by an **unrelenting passion for knowledge and personal growth**, I took on the **responsibility** of utilising **back-end technologies** to assist others as well as **expanding my expertise in back-end technologies**.
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming Languages
-- Python
+- Python3
 ### Pip & Python Package Requirements
 - Matplotlib
 ### Other Software Tools
@@ -16,3 +16,4 @@
 - **GitHub** was used to **host and maintain history of the project**.
 ## ✏️Design
 ### Back-End Technology Stack
+- Being a back-end project, Python3 was used to 
