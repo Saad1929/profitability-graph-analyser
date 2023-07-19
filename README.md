@@ -1,5 +1,6 @@
 # Profitability Graph Analyser - Python
 ## Contents
+1. [ Brief Summary ](#summary)
 
 ## Brief Summary
 - Personal Project which employs **Python** to generate **visually intuitive graphs** from stock sales data **retrieved from a database** through **Comma-Separated Values (CSV) file handling**.
