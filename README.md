@@ -23,3 +23,4 @@
 - A function named "filter_by_characteristic" was created, which accepts the data structure and the item by which the user wishes to filter, **facilitating the convenient plotting and viewing of sale data**.
 - The function named "aggregate_by_characteristic" achieves a similar result.
 - The "plot_total_profit" function takes the data structure as input and generates a **visually appealing line graph that illustrates the months and total profits**. The line graph presents the sales information in a **modern and aesthetically pleasing manner**.
+- The "plot_histogram_total_units" function achieves a similar outcome as the "plot_total_profit" function, but instead of a line graph, it generates a **histogram** that showcases the **frequencies and distribution of total units sold**. This graphical representation offers an **alternative visual perspective for analysing sales data**.
