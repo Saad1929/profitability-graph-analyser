@@ -22,3 +22,4 @@
 - Upon converting database information into a **CSV file**, a **sophisticated data structure** was created which was used to **store the information retrieved from the database** using **CSV File Handling**. In this case, a **dictionary data structure** was implemented, where the month number served as the key, and the corresponding values were arrays that stored the sale numbers per month.
 - A function named "filter_by_characteristic" was created, which accepts the data structure and the item by which the user wishes to filter, **facilitating the convenient plotting and viewing of sale data**.
 - The function named "aggregate_by_characteristic" achieves a similar result.
+- The "plot_total_profit" function takes the data structure as input and generates a **visually appealing line graph that illustrates the months and total profits**. The line graph presents the sales information in a **modern and aesthetically pleasing manner**.
