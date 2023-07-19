@@ -20,3 +20,4 @@
 ### Back-End Technology Stack
 - As a **back-end project**, **Python3** was employed to develop **profitability graphs** using the **matplotlib package** which enables users to **conveniently monitor and track the performance of products**, identifying both **successful and underperforming items**.
 - Upon converting database information into a **CSV file**, a **sophisticated data structure** was created which was used to **store the information retrieved from the database** using **CSV File Handling**. In this case, a **dictionary data structure** was implemented, where the month number served as the key, and the corresponding values were arrays that stored the sale numbers per month.
+- A function named "filter_by_characteristic" was created, which accepts the data structure and the item by which the user wishes to filter, **facilitating the convenient plotting and viewing of sale data**.
