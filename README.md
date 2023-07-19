@@ -8,4 +8,4 @@
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming Languages
 - Python
-### Pip Requirements
+### Pip & Python Package Requirements
