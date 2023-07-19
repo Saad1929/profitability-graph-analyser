@@ -36,6 +36,7 @@
 - The "plot_total_profit" function takes the data structure as input and generates a **visually appealing line graph that illustrates the months and total profits**. The line graph presents the sales information in a **modern and aesthetically pleasing manner**.
 - The "plot_histogram_total_units" function achieves a similar outcome as the "plot_total_profit" function, but instead of a line graph, it generates a **histogram** that showcases the **frequencies and distribution of total units sold**. This graphical representation offers an **alternative visual perspective for analysing sales data**.
 - The "plot_toothpaste_sales" function displays the **overall sales of a specific product**, in this case toothpaste, along with the total sales for each month. This function provides a **graphical representation** that **highlights the sales performance of the product over time**.
+<a name="demo"></a>
 ## 🚀 Graph Screenshots
 ### Monthly Profit Line Graph
 ![Monthly_Profit](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/4876e54c-d194-48e7-b33c-a6edab8f4fa7)
