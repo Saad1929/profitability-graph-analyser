@@ -12,3 +12,4 @@
 ### Pip & Python Package Requirements
 - Matplotlib
 ### Other Software Tools
+- **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
