@@ -7,3 +7,4 @@
 - **Motivated** by an **unrelenting passion for knowledge and personal growth**, I took on the **responsibility** of utilising **back-end technologies** to assist others as well as **expanding my expertise in back-end technologies**.
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming Languages
+- Python
