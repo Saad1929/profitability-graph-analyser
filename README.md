@@ -1,6 +1,7 @@
 # Profitability Graph Analyser - Python
 ## Contents
 1. [ Brief Summary ](#summary)
+2. [ Aims and Motivation ](#aims)
 
 <a name="summary"></a>
 ## Brief Summary
