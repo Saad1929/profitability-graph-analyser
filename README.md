@@ -1,6 +1,6 @@
 # Profitability Graph Analyser - Python
 ## Brief Summary
-- Personal Project which employs **Python** to generate **visually intuitive graphs** from stock sales data **retrieved from a database** through **file handling**.
+- Personal Project which employs **Python** to generate **visually intuitive graphs** from stock sales data **retrieved from a database** through **Comma-Separated Values (CSV) file handling**.
 - The project is now **fully operational** and being **utilised at a local convenience store**.
 - The project was **planned collaboratively** with the **involvement of two other developers**, emphasising **teamwork** in software design and development.
 ## 🎯Aims and Motivation
@@ -19,4 +19,4 @@
 ## ✏️Design
 ### Back-End Technology Stack
 - As a **back-end project**, **Python3** was employed to develop **profitability graphs** using the **matplotlib package** which enables users to **conveniently monitor and track the performance of products**, identifying both **successful and underperforming items**.
-- Upon turing database information into a CSV file
+  
