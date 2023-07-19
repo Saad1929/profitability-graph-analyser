@@ -10,3 +10,4 @@
 ### Programming Languages
 - Python
 ### Pip & Python Package Requirements
+- Matplotlib
