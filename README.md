@@ -19,4 +19,4 @@
 ## ✏️Design
 ### Back-End Technology Stack
 - As a **back-end project**, **Python3** was employed to develop **profitability graphs** using the **matplotlib package** which enables users to **conveniently monitor and track the performance of products**, identifying both **successful and underperforming items**.
-  
+- Upon converting database information into a **CSV file**, a **sophisticated data structure** was created which is used to **store the information retrieved from the database** using **CSV File Handling**.
