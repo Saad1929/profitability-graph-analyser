@@ -12,8 +12,10 @@
 ### Pip & Python Package Requirements
 - Matplotlib
 ### Other Software Tools
+- **Comma-Separated Values (CSV)** files were utilised in conjunction with **file handling operations** as part of the project's implementation.
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
 - **GitHub** was used to **host and maintain history of the project**.
 ## ✏️Design
 ### Back-End Technology Stack
 - As a **back-end project**, **Python3** was employed to develop **profitability graphs** using the **matplotlib package** which enables users to **conveniently monitor and track the performance of products**, identifying both **successful and underperforming items**.
+- Upon turing database information into a CSV file
