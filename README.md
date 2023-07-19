@@ -9,6 +9,7 @@
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming & Scriping Languages
 - Python3
+- MySQL
 ### Pip & Python Package Requirements
 - Matplotlib
 ### Other Software Tools
