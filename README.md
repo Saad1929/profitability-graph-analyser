@@ -31,3 +31,4 @@
 ### Frequency Histogram
 ![Frequencies_Units_Sold](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/f86ff1de-229b-4073-9ae9-36475f93c5e1)
 ### Toothpaste Montly Sales Line Graph
+![Toothpaste_Sales](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/cb3858b4-269a-4655-932a-802e81869baf)
