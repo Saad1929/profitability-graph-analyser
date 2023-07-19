@@ -1,4 +1,4 @@
-# Profitability Graph Analyser - Python  
+# Profitability Graph Analyser - Python 
 ## Contents
 1. [ Brief Summary ](#summary)
 2. [ Aims and Motivation ](#aims)
