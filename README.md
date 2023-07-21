@@ -9,9 +9,9 @@
 <a name="summary"></a>
 ## Brief Summary
 - Personal Group Project which employs **Python** to generate **visually intuitive graphs** from stock sales data **retrieved from a database** through **Comma-Separated Values (CSV) file handling**.
-- **Agile Methodology** used.
+- **Agile Methodology** followed with **Pair Programming** alongside 3 other developers.
 - The project is now **fully operational** and being **utilised at a local convenience store**.
-- The project was **planned collaboratively** and **Pair Programmed** with the **involvement of two other developers**, emphasising **teamwork** in software design and development.
+- The project was **planned collaboratively** and **Pair Programmed** with the **involvement of 3 other developers**, emphasising **teamwork** in software design and development.
 <a name="aims"></a>
 ## 🎯Aims and Motivation
 - The **primary objective** of this project was to enable users to **effortlessly visualise** their sales data from the database through **graphical representation**, aiding in better **comprehension and analysis**.
