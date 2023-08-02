@@ -40,9 +40,12 @@
 <a name="demo"></a>
 ## 🚀 Graph Screenshots
 ### Monthly Profit Line Graph
-![Monthly_Profit](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/4876e54c-d194-48e7-b33c-a6edab8f4fa7)
+![Monthly_Profit](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/9c3201b3-8492-40df-8555-1d2cb647dcf1)
+
 ### Frequency Histogram
-![Frequencies_Units_Sold](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/f86ff1de-229b-4073-9ae9-36475f93c5e1)
+![Frequencies_Units_Sold](https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/e9a637fb-d3d4-4cad-9256-41473609fbf5)
+
 ### Toothpaste Montly Sales Bar Graph
-<img width="1202" alt="Monthly_Toothpaste_sales" src="https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/2f79b018-f19b-4f96-858c-1b99ae1d7ef7">
+<img width="1202" alt="Monthly_Toothpaste_sales" src="https://github.com/Saad1929/profitability-graph-analyser/assets/108022733/dc6d4854-094e-4dd9-93d4-4690a7acdefe">
+
 
